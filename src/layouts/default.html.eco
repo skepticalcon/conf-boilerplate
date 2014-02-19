@@ -39,8 +39,8 @@
       <div class="wrapper">
         <%- @content %>
         <!-- FOOTER -->
-        <footer class="footer">
-          <p>Made with ♥ by <a href="http://confboilerplate.com">Conf Boilerplate</a> :)</p>
+        <footer class="footer" style="font-size: 6pt; padding-top: 20px;">
+          <p>Copyright &copy; 2010-2014 Bay Area Skeptics and Sacramento Area Skeptics. All rights reserved.</p>
         </footer>
         <!-- / FOOTER -->
       </div>

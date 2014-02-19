@@ -1,7 +1,8 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">SkeptiCal is the Northern California conference of science and skepticism, a day-long event with speakers, panels, and discussions on a wide array of subjects.</p>
+<h4>SkeptiCal is the Northern California conference of science and skepticism, a day-long event with speakers, panels, and discussions on a wide array of subjects.</h4>
 
 <p>Last year we had speakers covering a wide variety of speakers, including legends, hoaxes, and frauds of science, the search for extra-terrestrial intelligence, medical ethics, grassroots skepticism, and more.</p>
 
 
 <p>The conference schedule and a list of speakers will be posted soon.</p>
+
+<p>Tickets will be available soon. Regular tickets are available at a discounted rate of $40 until May 1, when the price goes up to $50. Students with an active student ID can attend for $30 until May 1. We are also offering a t-shirt for $15.</p>

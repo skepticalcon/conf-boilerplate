@@ -4,7 +4,7 @@
    MAIN LAYOUT
    ========================================================================== */
 html {
-  background:#F6F6F6;
+  background:#ffffff;
   font:normal normal 10px/1.2em helvetica, arial, sans-serif;
   color:#777;
 }
@@ -14,11 +14,32 @@ html {
    ========================================================================== */
 h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
 
+h4 {
+  line-height: 120%;
+}
+
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {background: #2b2b2b;}
-.nav-link {color:#e7e7e7;}
+nav {
+
+  background-color: #45aeea;
+  background-image: -moz-linear-gradient(top, #54b4eb, #2fa4e7);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#54b4eb), to(#2fa4e7));
+  background-image: -webkit-linear-gradient(top, #54b4eb, #2fa4e7);
+  background-image: -o-linear-gradient(top, #54b4eb, #2fa4e7);
+  background-image: linear-gradient(to bottom, #54b4eb, #2fa4e7);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff2fa4e7', GradientType=0);
+  border: 1px solid #1990d5;
+
+
+}
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #54b4eb;
+}
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
@@ -35,11 +56,14 @@ nav {background: #2b2b2b;}
   background-size: 100% auto;
 }
 .logo-link, .tagline, .call-action-area .price {
-  color:#fff;
-  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+  color:#000;
+  text-shadow: 1px 2px 1px rgba(255,255,255,.4);
 }
 .tagline {font-weight: normal;}
-.call-action-area .price {color:#fddd52;}
+.call-action-area .price {
+  color:#faa21c;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, .3);
+}
 .call-action-area .call-action-link, .btn {
   background-color: #fddd52;
   background-image: -moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);
@@ -76,9 +100,11 @@ nav {background: #2b2b2b;}
    ABOUT
    ========================================================================== */
 .about {
-  border:1px solid #e7e7e7;
+  //border:1px solid #e7e7e7;
   background:#fff;
   border-radius:4px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* =============================================================================
@@ -104,6 +130,10 @@ nav {background: #2b2b2b;}
   color:#fff;
   background:#2b2b2b;
   border-radius: 8px;
+}
+
+.speakers-bio {
+ font-style: italic;
 }
 
 /* =============================================================================

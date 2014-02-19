@@ -7,15 +7,14 @@
 <!-- HEADER -->
 <header class="header">
   <div class="wrapper">
-    <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+    <h1 class="logo-name" style="padding-bottom: 20px;">
+    <img src="themes/skeptical/img/SC14webheader.jpg" alt="SkeptiCal 2014, May 31, 2014" />
     </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
 
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>
-          <span class="price">Only <%= @conf.price %></span>
+          <span class="price">Tickets <%= @conf.price %></span>
         <% end %>
 
         <% if @callToAction: %>
