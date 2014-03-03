@@ -22,7 +22,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Register now!",
-        link: "http://eventick.com.br"
+        link: "http://skeptical2014.brownpapertickets.com"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -111,7 +111,7 @@ module.exports = {
         company: "People for Legal and Nonsectarian Schools, Inc.",
         presentation: {
           title: "Thirteen Years to Failure: A Federal Lawsuit to Stop Public Funding of Cult-Like Waldorf Schools",
-          description: "In 1996, the opening of the Internet to the general population brought together a diverse  group of former Waldorf school parents, teachers, and board members who all had experiences with Anthroposophy, the world-wide organization behind Waldorf schools (called Steiner schools outside the U.S.). Their experiences were best explained if Anthroposophy were categorized as a religious cult. At the same time, Waldorf schools began to receive public funding as magnet and charter schools. PLANS was incorporated as a non-profit that could bring legal action against perceived violations of the Establishment Clause of the U.S. Constitution, which forbids public funding of religious activities. A lawsuit was filed in federal court against two California school districts, one with a Waldorf magnet school and one with a Waldorf charter school. First Amendment lawsuits take many years, and this was no exception. Volunteer lawyers came and went. Mistakes were made that the insurance-funded lawyers for the school districts exploited to whittle down the evidence. Despite three favorable rulings from the 9th Circuit Court of Appeals over the years, the case was dismissed in 2012 after the appeals court opined that there was no significant evidence left. The dismissal was without prejudice, however, and the way was left open to start all over again.",
+          description: "In 1996, the opening of the Internet to the general population brought together a diverse  group of former Waldorf school parents, teachers, and board members who all had experiences with Anthroposophy, the world-wide organization behind Waldorf schools. At the same time, Waldorf schools began to receive public funding as magnet and charter schools. PLANS was incorporated as a non-profit that could bring legal action against perceived violations of the Establishment Clause of the U.S. Constitution, which forbids public funding of religious activities. A lawsuit was filed in federal court against two California school districts. First Amendment lawsuits take many years, and this was no exception. Despite three favorable rulings from the 9th Circuit Court of Appeals over the years, the case was dismissed in 2012 after the appeals court opined that there was no significant evidence left. The dismissal was without prejudice, however, and the way was left open to start all over again.",
 //          time: "14h00"
         }
       },
@@ -130,6 +130,50 @@ module.exports = {
 //          time: "16h00"
         }
       },
+      {
+        name: "Norm Goldblatt",
+        photo: "themes/skeptical/img/speakers/goldblatt.jpg",
+        bio: "Norm Goldblatt performs his science comedy all over the San Francisco Bay Area: at nightclubs, comedy clubs, corporate events, private parties, and fundraisers. His humor touches on technology, science, politics, and the human condition. His quips were quoted regularly by the late great Herb Caen in the San Francisco Chronicle, and his jokes are heard on the Tonight Show with Jay Leno.",
+        company: "",
+        presentation: {
+          title: "Comedy",
+//          time: "16h00"
+        }
+      },
+      {
+        name: "Ben Santer",
+        photo: "themes/skeptical/img/speakers/santer.jpg",
+ //       bio: "Program for Climate Model Diagnosis and Intercomparison, LLNL",
+        company: "",
+        presentation: {
+          title: "A Discernible Human Influence on Global Climate",
+//          time: "16h00"
+          description: "Human-caused climate change is not a hypothetical future event. It is real, and we are experiencing it in our lifetimes. Despite the compelling evidence of human effects on global climate, there is a continuing need for scientists to answer the question “How do we know it’s us?” The first part of my talk will briefly summarize the scientific underpinning for “discernible human influence” conclusions of the Intergovernmental Panel on Climate Change (IPCC) and the U.S. National Academy of Sciences (NAS). The focus will be on so-called “fingerprint” studies. Such studies use complex computer models of the climate system to understand how geographical patterns of temperature and moisture (and many other climatic variables) may change in response to human influences. Fingerprinting involves searching for model-predicted \"human influence\" patterns in observational climate records. The message from this body of research is that observed changes in many different (and independently-measured) aspects of the climate system cannot be explained by natural causes alone."
+        }
+      },
+      {
+        name: "Sheril Kirshenbaum",
+        photo: "themes/skeptical/img/speakers/kirshenbaum.jpg",
+        bio: "Sheril Kirshenbaum works to enhance public understanding of science and improve communication between scientists, policymakers, and the public. She is the Director of The Energy Poll at The University of Texas at Austin and the author of two books, Unscientific America (with Chris Mooney) and The Science of Kissing. Her writing regularly appears in magazines, newspapers, and scientific journals and she has been featured in the Best American Science Writing anthology series. Previously, Sheril worked with the Webber Energy Group and Duke University's Nicholas School of the Environment. She has been a Marshall Memorial Fellow, a Next Generation Project Texas Fellow, and a legislative Knauss Science Fellow on Capitol Hill with Senator Bill Nelson (D-FL) where she was involved in energy, climate, and ocean policy.",
+        company: "",
+        presentation: {
+          title: "Science Literacy in the 21st Century",
+//          time: "16h00"
+          description: ""
+        }
+      },
+      {
+        name: "Frank Mosher",
+        photo: "themes/skeptical/img/speakers/mosher.jpg",
+        bio: "Frank Mosher works as a Mad Scientist for Mad Science of Sacramento Valley. He teaches hands-on science enrichment in schools and for organizations throughout Sacramento and the surrounding areas, both in the classroom and after-school, as well as designing and implementing science summer camps. Frank also serves as the President for the Sacramento Area Skeptics.",
+        company: "",
+        presentation: {
+          title: "TBD",
+//          time: "16h00"
+          description: "Our children are our future... future voters, future consumers, future politicians, future adults. Our best hope for the future is to raise a generation of critical thinkers, a generation of people who understand why science works, and why we should care about what science has to tell us. So how do we do this? How do we show children how exciting science is, how powerful of a tool critical thinking is? In this hour we will learn some tools and techniques for getting kids excited about learning science and being skeptical."
+        }
+      },
+
     ],
 
     // List of Sponsors

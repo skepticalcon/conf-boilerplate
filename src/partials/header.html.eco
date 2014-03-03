@@ -17,11 +17,17 @@
           <span class="price">Tickets <%= @conf.price %></span>
         <% end %>
 
+
         <% if @callToAction: %>
           <a href="<%= @callToAction.link %>" class="call-action-link" title="<%= @callToAction.text %>"><%= @callToAction.text %></a>
         <% end %>
       </div>
     <% end %>
+
+    <p style="padding-top: 20px;">Regular tickets are available at a discounted rate of $40 until May 1, when the price goes up to $50.</p>
+
+    <p>Students with an active student ID can attend for $30 until May 1. We are also offering a t-shirt for $15.</p>
+
   </div>
 </header>
 <!--  / HEADER -->
