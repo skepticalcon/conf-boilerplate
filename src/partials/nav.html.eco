@@ -6,6 +6,10 @@
         <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
       </li>
     <% end %>
+    <li class="nav-item">
+    	<a href="http://skeptical2014.brownpapertickets.com" title="Tickets" class="nav-link ticket-nav"><b>Tickets</b></a>
+    </li>
+
   </ul>
 </nav>
 
