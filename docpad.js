@@ -145,7 +145,7 @@ module.exports = {
         bio: "Frank Mosher works as a Mad Scientist for Mad Science of Sacramento Valley. He teaches hands-on science enrichment in schools and for organizations throughout Sacramento and the surrounding areas, both in the classroom and after-school, as well as designing and implementing science summer camps. Frank also serves as the President for the Sacramento Area Skeptics.",
         company: "",
         presentation: {
-          title: "TBD",
+          title: "Kids, Science, and Skepticism... For Adults!",
 //          time: "16h00"
           description: "Our children are our future... future voters, future consumers, future politicians, future adults. Our best hope for the future is to raise a generation of critical thinkers, a generation of people who understand why science works, and why we should care about what science has to tell us. So how do we do this? How do we show children how exciting science is, how powerful of a tool critical thinking is? In this hour we will learn some tools and techniques for getting kids excited about learning science and being skeptical."
         }
