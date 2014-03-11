@@ -24,9 +24,11 @@
       </div>
     <% end %>
 
-    <p style="padding-top: 20px;">Regular tickets are available at a discounted rate of $40 until May 1, when the price goes up to $50.</p>
+    <p style="padding-top: 20px; padding-left: 20%; padding-right: 20%;"><b>Reduced registration price from last year!</b> Regular tickets are available at a discounted rate of $40 until May 1, when the price goes up to $50.</p>
 
-    <p>Students with an active student ID can attend for $30 until May 1. We are also offering a t-shirt for $15.</p>
+    <p style="padding-left: 20%; padding-right: 20%;">Students with an active student ID can register for $30 until May 1.</p>
+
+    <p style="padding-left: 20%; padding-right: 20%;">We are also offering a t-shirt for $15.</p>
 
   </div>
 </header>

@@ -90,7 +90,7 @@ module.exports = {
         }
       },
 
-
+/*
       {
         name: "Brian Dunning",
         photo: "themes/skeptical/img/speakers/dunning.png",
@@ -102,12 +102,12 @@ module.exports = {
           description: "In this hour we'll take a dozen cases of false pseudohistory that are commonly believed or promoted through popular media, and study why they are harmful to society. More importantly, we'll discover the true benefits and lessons that come from knowing what really happened.",
 //          time: "11h00"
         }
-      },
+      },*/
 
       {
         name: "Norm Goldblatt",
         photo: "themes/skeptical/img/speakers/goldblatt.jpg",
-        bio: "Norm Goldblatt performs his science comedy all over the San Francisco Bay Area: at nightclubs, comedy clubs, corporate events, private parties, and fundraisers. His humor touches on technology, science, politics, and the human condition. His quips were quoted regularly by the late great Herb Caen in the San Francisco Chronicle, and his jokes are heard on the Tonight Show with Jay Leno.",
+        bio: "Norm Goldblatt performs his science comedy all over the San Francisco Bay Area: at nightclubs, comedy clubs, corporate events, private parties, and fundraisers. His humor touches on technology, science, politics, and the human condition. His quips were quoted regularly by the late great Herb Caen in the San Francisco Chronicle, and his jokes were heard on the Tonight Show with Jay Leno.",
         company: "",
         presentation: {
           title: "Comedy",
@@ -116,7 +116,7 @@ module.exports = {
       },
 
       {
-        name: "Sheldon Helms",
+        name: "Sheldon W. Helms",
         photo: "themes/skeptical/img/speakers/helms.jpg",
         bio: "Sheldon W. Helms is an associate professor of psychology at Ohlone College in Fremont, CA.  He serves on the Board of Directors for the Bay Area Skeptics, is a member of the SkeptiCal planning committee, and is the founder of the Ohlone Psychology Club Speaker Series through which he regularly hosts top name speakers in science and skepticism.",
         company: "Ohlone College, Fremont, California",

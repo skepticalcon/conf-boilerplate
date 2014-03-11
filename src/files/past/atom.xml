@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>SkeptiCal Conference</title>
+	<link href="http://www.skepticalcon.com/atom.xml" rel="self"/>
+	<link href="http://www.skepticalcon.com"/>
+	<updated>2014-01-21T05:18:59.655Z</updated>
+	<id>http://www.skepticalcon.com</id>
+	<author>
+		<name>Bay Area Skeptics</name>
+		<email>info@skepticalcon.org</email>
+	</author>
+
+	
+</feed>
