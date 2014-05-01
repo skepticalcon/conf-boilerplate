@@ -8,10 +8,10 @@ module.exports = {
     // Conference info
     conf: {
       name: "SkeptiCal 2014",
-      description: "The Northern California conference of science and skepticism.",
+      description: "The Northern California conference of science and skepticism. May 31, 2014, Oakland, California.",
       date: "May 31",
       // If your event is free, just comment this line
-      price: "$40",
+      price: "$50",
       venue: "Oakland Asian Cultural Center",
       address: "388 9th Street, Oakland, CA",
       city: "Oakland",
@@ -27,7 +27,7 @@ module.exports = {
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
 /*    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+        repository: "http://skeptical2014.brownpapertickets.com/"
     },*/
 
     // Site info
@@ -45,6 +45,7 @@ module.exports = {
       'location',
       'speakers',
 //      'schedule',
+      'sponsors',
       'contact'
     ],
 
@@ -103,6 +104,17 @@ module.exports = {
 //          time: "11h00"
         }
       },*/
+      {
+        name: "Andrew Fraknoi",
+        photo: "themes/skeptical/img/speakers/fraknoi.jpg",
+        bio: "Andrew Fraknoi is the Chair of the Astronomy Department at Foothill College (where he teaches courses on astronomy and physics for poets to 900 students per year) and the former Executive Director of the Astronomical Society of the Pacific.  In 2007, he was selected as the California Professor of the Year by the Carnegie Endowment for Higher Education and won the Gemant Prize of the American Institute of Physics for a lifetime of contributions to combining physics and culture. He is a Fellow of the Committee for Skeptical Inquiry, specializing in debunking pseudoscience connected with astronomy. Fraknoi is the lead author of a college astronomy textbook, Voyages Through the Universe, and wrote a book for children, Disney’s Wonderful World of Space. He appears regularly on local and national radio explaining scientific developments in everyday language. The International Astronomical Union has named asteroid 4859 Asteroid Fraknoi in recognition of his contributions to the public understanding of astronomy.",
+        company: "",
+        presentation: {
+          title: "Nancy Reagan’s Astrologer, Jetology, and the Zoodiac: An Astronomer Looks at Astrology",
+//          time: "16h00"
+          description: "This light-hearted talk explores the popularity of the “fiction science” called astrology, examines its origins thousands of years ago, and then presents some of the many scientific tests that astrology has failed in our time. We’ll take a quick look at how an astrologer came to have influence in the Reagan White House.   And we’ll also discuss a “competing” theory called “jetology” where the position of all the jumbo jets at the moment of your birth can help illuminate your destiny and love life."
+        }
+      },
 
       {
         name: "Norm Goldblatt",
@@ -174,7 +186,7 @@ module.exports = {
       {
         name: "Ben Santer",
         photo: "themes/skeptical/img/speakers/santer.jpg",
- //       bio: "Program for Climate Model Diagnosis and Intercomparison, LLNL",
+        bio: "Ben Santer, Ph.D, is an atmospheric scientist at Lawrence Livermore National Laboratory (LLNL). His research focuses on such topics as climate model evaluation, the use of statistical methods in climate science, and the identification of natural and  human “fingerprints” in observed climate records. Santer’s early research on the climatic  effects of combined changes in greenhouse gases and sulfate aerosols contributed  to the historic “discernible human influence” conclusion of the 1995 Report by the Intergovernmental Panel on Climate Change (IPCC). His recent work has attempted to identify human fingerprints in a number of different climate variables, such as tropopause height, atmospheric water vapor, the temperature of the stratosphere and troposphere, ocean heat content, and ocean surface temperatures in hurricane formation regions.",
         company: "",
         presentation: {
           title: "A Discernible Human Influence on Global Climate",
@@ -184,14 +196,71 @@ module.exports = {
       },
 
     ],
-
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
-      }
+        name: "Atheist Advocates of San Francisco",
+        description: "East Bay Atheists & Atheist Advocates of San Francisco work closely together for the advancement of critical thinking in all spheres of knowledge, especially through political activism.",
+        url: "http://atheistadvocatesofsanfrancisco.com/index.html"
+      },
+      {
+        name: "The Bone Room",
+        description: "The Bone Room is a Natural History Store with real bones, insects and fossils - like a museum, but you can take the exhibits home!",
+        url: "https://www.boneroom.com/welcome.aspx"
+      },
+      {
+        name: "Camp Quest",
+        description: "A weeklong summer camp program for children ages 8-17, from non-religious families, to experience the awe and wonder of science and the great outdoors while learning about leadership and building lifelong friendships.",
+        url: "http://www.campquest.org/"
+      },
+      {
+        name: "CFI-SF/IIG-SFBA",
+        description: "The Center for Inquiry SF (CFI-SF) is a local branch of Center for Inquiry whose mission is promotion of a society based on science, reason, freedom of inquiry and secular values. The Independent Investigations Group SF Bay Area administers a $100,000 prize for anyone who can demonstrate a paranormal ability under controlled conditions. (So far, no one has).",
+        url: "http://www.centerforinquiry.net/sf"
+      },
+      { 
+        name: "East Bay Atheists",
+        description: "East Bay Atheists & Atheist Advocates of San Francisco work closely together for the advancement of critical thinking in all spheres of knowledge, especially through political activism.",
+        url: "http://eastbayatheists.org"
+      },
+      
+      {
+        name: "East Bay Skeptics Society",
+        description: "The East Bay Skeptics Society is a local non-profit, member-governed organization dedicated to the advancement of reason, science and intellectual integrity -- and to the exposure of superstition, fraud and pseudoscience.",
+        url: "https://groups.google.com/forum/#!forum/eb-skeptics"
+      },
+      {
+        name: "National Center for Science Education",
+        description: "Defending and promoting the teaching of evolution and climate science.",
+        url: "http://ncse.com/"
+      },
+      {
+        name: "Reason4Reason",
+        description: "Reason4Reason is a group of rational thinking activists in the San Francisco Bay Area working to grow the modern skeptical movement and hamper northern California pseudoscience from exporting irrational thinking around the world.",
+        url: "http://reason4reason.org/Joomlatest/"
+      },
+      {
+        name: "Secular Coalition for California",
+        description: "The Secular Coalition for California is a state chapter of the Secular Coalition for America, a 501(c)(4) political advocacy organization whose purpose is to amplify the diverse and growing voice of the nontheistic community in the United States.",
+        url: "http://states.secular.org/states/california"
+      },
+
+      {
+        name: "Secularity Clothing",
+        description: "Secularity Clothing is an independent clothing brand from the Bay Area that focuses on promoting secular values, eco-friendlyness, and compassionate living with simple designs on organic material.",
+        url: "http://secularityclothing.com/about/"
+      },
+      {
+        name: "University of California Observatories - Lick Observatory",
+        description: "The Lick Observatory is a Multi-campus Research Unit of the University of California, providing UC astronomers with a state-of-the-art astronomical research and education facility.",
+        url: "http://www.ucolick.org"
+      },
+
+      {
+        name: "Wonderfest, the Bay Area Beacon of Science",
+        description: "Through in-person and online presentations, Wonderfest aspires to stimulate curiosity, promote careful reasoning, challenge unexamined beliefs, and encourage life-long learning.",
+        url: "http://wonderfest.org"
+      },
     ],
 
     // List of Partners

@@ -1,7 +1,7 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
 
 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop=""><%= @conf.venue %>, </span>
+  <span itemprop=""><a href="http://oacc.cc/directions/"><%= @conf.venue %></a>, </span>
   <span itemprop="streetAddress"><%= @conf.address %>. </span>
 </p>
 

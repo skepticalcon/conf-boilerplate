@@ -166,7 +166,7 @@ nav {
    ========================================================================== */
 .sponsor-item, .partner-item {
   display: inline-block;
-  margin: 0 30px 30px 0;
+  margin: 0 30px 20px 0;
 }
 .sponsor-link, .partner-link {
   display: block;
@@ -175,6 +175,12 @@ nav {
   text-align:center;
   vertical-align: middle;
   line-height: 150px;
+}
+
+.sponsors-list {
+  font-size:1.6em;
+  line-height:1.6em;
+  margin-bottom: 1.4em;
 }
 
 /* =============================================================================
@@ -252,12 +258,7 @@ nav {
   .schedule-tbl td.schedule-description {font-size:12px;}
 
   /* partners */
-  .sponsor-item, .partner-item {margin: 0 5px 10px 0;}
-  .sponsor-link, .partner-link {
-    width: 95px;
-    height:95px;
-    line-height: 95px;
-  }
+  .sponsor-item, .partner-item {margin: 0 5px 5px 0;}
 
   /* contact */
   .control-group-name, .control-group-email {
@@ -323,11 +324,40 @@ nav {
   .schedule-tbl .schedule-description {display: none;}
   .schedule-tbl .schedule-slot {width: auto;}
 
-  /* partners */
-  .sponsor-item, .partner-item {margin: 0 12px 15px 0;}
-  .sponsor-link, .partner-link {
-    width: 115px;
-    height:115px;
-    line-height: 115px;
-  }
+}
+
+// Ribbons
+
+.ribbon {
+  background-color: #faa21c;
+  overflow: hidden;
+  white-space: nowrap;
+  /* top left corner */
+  position: fixed;
+  right: -45px;
+  top: 32px;
+  /* 45 deg ccw rotation */
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+  /* shadow */
+  -webkit-box-shadow: 0 0 10px #888;
+     -moz-box-shadow: 0 0 10px #888;
+          box-shadow: 0 0 10px #888;
+  z-index: 11;
+
+}
+.ribbon a {
+  border: 1px solid #DE8804;
+  color: #fff;
+  display: block;
+  font: bold 181.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 5px #444;
 }
