@@ -218,6 +218,13 @@ module.exports = {
         description: "East Bay Atheists & Atheist Advocates of San Francisco work closely together for the advancement of critical thinking in all spheres of knowledge, especially through political activism.",
         url: "http://atheistadvocatesofsanfrancisco.com/index.html"
       },
+
+      {
+        name: "Bay Area Humanists",
+        description: "The purpose of the Bay Area Humanists is to promote humanism: an ethical, democratic, naturalistic lifestance that prioritizes reason, scientific and critical thinking, and a system of humanist ethics and secular values as a rational alternative to those based on religion.",
+        url: "http://sfhumanists.org"
+      },
+
       {
         name: "The Bone Room",
         description: "The Bone Room is a Natural History Store with real bones, insects and fossils - like a museum, but you can take the exhibits home!",
@@ -272,6 +279,17 @@ module.exports = {
         url: "http://www.seti.org/"
       },
 
+      {
+        name: "Sunday Assembly East Bay",
+        description: "The Sunday Assembly is a godless congregation that celebrates life and that embraces the motto: \"Live better, help often, wonder more.\"",
+        url: "http://eastbay.sundayassembly.com/"
+      },
+
+      {
+        name: "Sunday Assembly Silicon Valley ",
+        description: "The Sunday Assembly is a godless congregation that celebrates life and that embraces the motto: \"Live better, help often, wonder more.\"",
+        url: "http://sundayassemblysv.org/"
+      },
 
 
       {
